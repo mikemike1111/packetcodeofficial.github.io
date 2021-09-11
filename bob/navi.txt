@@ -1,0 +1,125 @@
+	<html>
+ <head>
+<style>
+body{
+background-color:white;
+
+}
+.nav{
+width:100%;
+background:  #00FFFF;;
+height:50px;
+text-align:center; 
+opacity:0.9;
+ valign:middle;
+}
+
+ul{
+list-style:none;
+padding:0;
+margin:0;
+position:absolute;
+
+}
+
+ul li{
+float:left;
+margin-top:10px;
+
+}
+
+ul li a{
+width:100px;
+color:white;
+display:block;
+text-decoration:none;
+padding:10px;
+border-radius:5px;
+font -family:century gothic;
+font-weight:bold;
+
+}
+
+a:hover{
+background:black;
+}
+
+ul li ul{
+background:blue;
+}
+
+ul li ul li{
+float:none;
+
+}
+
+ul li ul {
+display:none;
+
+}
+
+ul li:hover ul{
+display:block;
+
+}
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="nav">
+
+<ul>
+<li><a href ="home.html" target="myframe" >Home</a></li>
+<li><a href ="east.html" target="myframe">EasternTeam</a>
+
+ 
+
+</li>
+<li><a href ="west.html" target="myframe" >WesternTeam</a>
+
+
+</li>
+<li><a href ="#">NBAHighlights</a></li>
+<li><a href ="o.html">Shoes color</a>
+<ul>
+<li><a href ="east.html" target="myframe">Blue</a></li>
+<li><a href ="#">Red</a></li>
+<li><a href ="#">Pink</a></li>
+  <li><a href="#">Black</a></li> 
+<li><a href="#">Black</a></li> 
+</ul>
+</li>
+
+
+
+<ul> 
+</div>
+
+
+
+
+
+<br>
+     
+
+
+
+   <td><iframe src="home.html" width="1000" border="0" name="myframe" height="1000"  align="center">
+
+</iframe>
+
+</body>
+ 
+   
+</html>
